@@ -1,0 +1,31 @@
+{
+  "name": "phoenix.js",
+  "version": "0.0.1",
+  "description": "A JavaScript static analysis tool",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main" : "bin/phoenixjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "phoenixjs": "bin/phoenixjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeFred/phoenix.js.git"
+  },
+  "author": "Fred Mameri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeFred/phoenix.js/issues"
+  },
+  "homepage": "https://github.com/CodeFred/phoenix.js",
+  "dependencies": {
+    "cli": "^0.10.0",
+    "esprima": "^2.6.0",
+    "glob": "^5.0.15",
+    "underscore": "^1.8.3"
+  }
+}

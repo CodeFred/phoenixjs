@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var main = require('../lib/cli/main');
+
+process.title = 'phoenix.js';
+main();
